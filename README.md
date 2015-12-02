@@ -36,7 +36,7 @@ $ bower install
 
 ## Releases
 
-v1.0.0 - Initial grid view
+v1.0.0 - Initial release
 
 [Github releases](https://github.com/hiof/canvas-plugin/releases)
 
