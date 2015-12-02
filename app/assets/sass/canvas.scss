@@ -1,0 +1,39 @@
+// Imports
+@import '../../../vendor/sass-mq/mq';
+@import '../../../vendor/frontend/app/assets/sass/variables/_standard.scss';
+
+
+// -----------------------------------------------------------
+// -----------------------------------------------------------
+// Output
+
+#header{
+  //background-image: none;
+  background: #fff;
+  border-bottom: 1px solid #aaa;
+}
+
+#header-logo{
+  background-image: url(images/hiof-logo-canvas-300x50.png);
+  background-size: 150px 25px;
+  width: 300px;
+  height: 50px;
+  top: 10px;
+  bottom: auto;
+}
+
+#menu{
+  margin-left: 325px;
+  a{
+    color: $hiof-blue;
+  }
+}
+
+@include mq($until: small) {}
+
+@include mq($from: small, $until: large) {}
+
+@include mq($from: large) {}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dppx) {}
